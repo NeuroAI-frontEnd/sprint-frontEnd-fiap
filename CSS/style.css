@@ -6,3 +6,43 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #be16dc;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #03da32;
+}
+
