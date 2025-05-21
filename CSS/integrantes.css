@@ -50,3 +50,106 @@
   color: #666;
   font-size: 0.95rem;
 }
+
+/* _____--- responsividade ---_____ */
+
+@media (max-width: 600px) {
+  .container-integrantes {
+    padding: 3rem 1rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container-integrantes h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .container-integrantes h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 260px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-integrantes {
+    padding: 5rem 3rem;
+  }
+
+  .card {
+    width: 280px;
+  }
+
+  .card img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cards {
+    gap: 2.5rem;
+  }
+
+  .card {
+    width: 300px;
+    padding: 2rem;
+  }
+
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container-integrantes {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 320px;
+  }
+
+  .card img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .card h2 {
+    font-size: 1.6rem;
+  }
+
+  .card p {
+    font-size: 1.05rem;
+  }
+}
