@@ -9,8 +9,9 @@
 body {
   line-height: 1.6;
   background-color: #f8f9fa;
-  color: #333;
-}
+ }
+
+/* _____--- header/navegação ---_____ */
 
 header {
   background-color: #be16dc;
@@ -32,7 +33,7 @@ nav {
 .menu {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 .menu li a {
@@ -43,6 +44,41 @@ nav {
 }
 
 .menu li a:hover {
+  color: #6d0380;
+}
+
+
+/* _____--- seção hero ---_____ */
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #03dac6, #03da32);
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #fff;
   color: #03da32;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #be16dc;
+  color: #fff;
 }
 
