@@ -14,7 +14,7 @@ body {
 /* _____--- header/navegação ---_____ */
 
 header {
-  background-color: #be16dc;
+  background: linear-gradient(135deg, #d77bea, #b40dd2);
   color: #fff;
   padding: 1rem 2rem;
 }
@@ -82,3 +82,12 @@ nav {
   color: #fff;
 }
 
+/* _____--- footer ---_____ */
+
+footer {
+  background-color: #ffffff;  
+  text-align: center;
+  padding: 1.5rem;
+  color: #7a6d6d;
+  font-size: 0.9rem;
+}
