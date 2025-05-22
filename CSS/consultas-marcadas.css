@@ -84,3 +84,22 @@
     font-size: 1.5rem;
   }
 }
+
+
+
+.btn-excluir {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.btn-excluir:hover {
+  background-color: #c82333;
+  color: #fafafa;
+}
