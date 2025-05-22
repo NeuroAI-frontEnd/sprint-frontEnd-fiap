@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.addEventListener("click", function () {
         const index = parseInt(this.getAttribute("data-index"));
         consultas.splice(index, 1);
-        localStorage.setItem("consulta", JSON.stringify(consultas));
+        localStorage.setItem("consultas", JSON.stringify(consultas));
         renderizarConsultas();
       });
     });
