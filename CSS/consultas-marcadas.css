@@ -1,0 +1,105 @@
+.container {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h1 {
+  text-align: center;
+  color: #1d672d;
+  margin-bottom: 2rem;
+}
+
+.consultas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-consulta {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 6px solid #03da32;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card-consulta h3 {
+  color: #6d0380;
+  margin-bottom: 0.5rem;
+}
+
+.card-consulta p {
+  margin: 0.3rem 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* _____--- responsividade ---_____ */
+
+@media (max-width: 600px) {
+  .container {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-consulta {
+    padding: 2rem;
+  }
+
+  .card-consulta p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container h1 {
+    font-size: 2.2rem;
+  }
+
+  .card-consulta {
+    padding: 2.2rem;
+  }
+
+  .card-consulta p {
+    font-size: 1.05rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .card-consulta {
+    padding: 2.5rem;
+  }
+
+  .card-consulta h3 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+.btn-excluir {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.btn-excluir:hover {
+  background-color: #c82333;
+  color: #fafafa;
+}
