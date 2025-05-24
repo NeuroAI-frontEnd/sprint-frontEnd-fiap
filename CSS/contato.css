@@ -94,3 +94,26 @@
     padding: 1rem;
   }
 }
+
+/* _____--- mensagem visual  ---_____ */
+
+.mensagem {
+  display: none;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mensagem.sucesso {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.mensagem.erro {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
