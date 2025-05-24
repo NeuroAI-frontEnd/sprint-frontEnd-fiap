@@ -14,7 +14,7 @@ body {
 /* _____--- header/navegação ---_____ */
 
 header {
-  background: linear-gradient(135deg, #d77bea, #b40dd2);
+  background: linear-gradient(135deg, #d77bea, #b50dd2de);
   color: #fff;
   padding: 1rem 2rem;
 }
@@ -27,7 +27,7 @@ nav {
 }
 
 .logo img {
-  height: 100px;
+  height: 130px;
 }
 
 .menu {
